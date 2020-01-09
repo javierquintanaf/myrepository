@@ -16,7 +16,7 @@ int main(void)
     p = n;
     do
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 1; j < n; j++)
         {
             printf(" ");
         }
