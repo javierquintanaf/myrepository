@@ -33,11 +33,11 @@ int main(void)
             p++;
         }
         while(p<=o);
-        for (int j = 0; j < n; j++)
-        {
-            printf(" ");
-        }
-        printf("\n");       
+        //for (int j = 0; j < n; j++)
+        //{
+        //    printf(" ");
+        //}
+        //printf("\n");       
     n=n-1;
     m=n;
     p=n;
