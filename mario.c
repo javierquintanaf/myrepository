@@ -37,7 +37,7 @@ int main(void)
         //{
         //    printf(" ");
         //}
-        //printf("\n");       
+        printf("\n");       
     n=n-1;
     m=n;
     p=n;
