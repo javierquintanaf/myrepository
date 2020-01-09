@@ -8,9 +8,9 @@ int main(void)
     int p;
     do
     {
-    n = get_int("Size: ");    
+        n = get_int("Size: ");    
     }
-    while (n<1||n>8);
+    while (n < 1 || n > 8);
     o = n;
     m = n;
     p = n;
@@ -25,22 +25,22 @@ int main(void)
             printf("#");
             m++;
         }
-        while(m<=o);
+        while (m <= o);
         printf("  ");
         do 
         {
             printf("#");
             p++;
         }
-        while(p<=o);
+        while (p <= o);
         //for (int j = 0; j < n; j++)
         //{
         //    printf(" ");
         //}
         printf("\n");       
-    n=n-1;
-    m=n;
-    p=n;
+        n = n - 1;
+        m = n;
+        p = n;
     }
     while (n > 0);
 }
